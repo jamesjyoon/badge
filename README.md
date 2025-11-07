@@ -1,6 +1,5 @@
-# badge
-A futuristic online badge ID concept rendered as an SVG.
+A Georgia Tech-inspired badge created for the HAAG.
 
-![Online Badge ID](assets/online-badge.svg)
+![HAAG Badge](assets/online-badge.svg)
 
-The badge combines a layered shield silhouette, neon glow, and a monospaced identifier (`ID-9842-NEBULA`) to evoke a secure digital credential. You can embed `assets/online-badge.svg` wherever inline SVGs are supported, or export it to other formats for use in profile pages and dashboards.
+The design brings in Tech gold and navy, a hexagonal energy core, and a cybernetic hex shield reminiscent of campus architecture. Customize the SVG by adjusting gradients, typography, or identifier strings (for example, `ID-HAAG-1885`) to align with other HAAG credentials and Georgia Tech branding assets.
