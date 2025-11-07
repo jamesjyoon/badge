@@ -2,8 +2,6 @@
 
 An SVG badge for the Human-Augmented Analytics Group (HAAG) at Georgia Tech, featuring a layered security tablet motif with the interlocking GT monogram inset in the core.
 
-![HAAG Badge](assets/online-badge.svg)
-
 ## Highlights
 - Georgia Tech navy backdrop with soft depth gradients and a luminous perimeter for screen legibility.
 - Interlocking GT monogram constructed with SVG paths so it scales sharply at any resolution.
