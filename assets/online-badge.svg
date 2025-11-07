@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/assets/online-badge.svg b/assets/online-badge.svg
 index e5a8153e60d1482f0f73f0a52ae1b89af8544a85..95638f6df34724805d1cd91e7d02dccd8d9f2820 100644
 --- a/assets/online-badge.svg
@@ -115,6 +114,3 @@ index e5a8153e60d1482f0f73f0a52ae1b89af8544a85..95638f6df34724805d1cd91e7d02dccd
 +  <text class="sans" x="50%" y="420" font-size="13" fill="#f2d675" text-anchor="middle" letter-spacing="3">HUMAN-AUGMENTED ANALYTICS GROUP · ATLANTA CAMPUS</text>
 +  <text class="mono" x="50%" y="442" font-size="11" fill="#7c8ea8" text-anchor="middle">ACCESS CHANNEL · SIGNAL HASH 47-HAAG</text>
  </svg>
- 
-EOF
-)
