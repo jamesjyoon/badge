@@ -1,4 +1,6 @@
 <svg width="360" height="460" viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HAAG Digital Credential</title>
+  <desc id="desc">Digital badge for the Human-Augmented Analytics Group featuring a layered security tablet design and a custom HAAG analytic glyph.</desc>
   <title id="title">Georgia Tech HAAG Digital Credential</title>
   <desc id="desc">Digital badge for the Human-Augmented Analytics Group at Georgia Tech with a layered security tablet design and interlocking GT emblem.</desc>
   <defs>
@@ -72,6 +74,11 @@
   </g>
 
   <g transform="translate(180 254)">
+    <path d="M -74 -66 H -44 V -14 H -14 V -66 H 16 V 66 H -14 V 12 H -44 V 66 H -74 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
+    <path d="M 28 66 L 60 -66 H 116 L 148 66 H 118 L 110 32 H 66 L 58 66 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
+    <path d="M -44 -18 H -14 V 14 H -44 Z" fill="#f7f4eb" opacity="0.22" />
+    <path d="M 70 8 H 104 L 98 -18 H 76 Z" fill="#f7f4eb" opacity="0.18" />
+    <path d="M 28 66 L 44 0 L 76 0 L 90 66 Z" fill="#102640" opacity="0.28" />
     <path d="M -86 -66 H 64 V -24 H -20 V -10 H 64 V 66 H -86 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
     <path d="M 64 -66 H 152 V -26 H 118 V 66 H 64 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
     <path d="M -52 -40 H 68 V -18 H -20 V 10 H -36 V -10 H -52 Z" fill="#f7f4eb" opacity="0.2" />
@@ -82,6 +89,11 @@
     <rect x="112" y="316" width="136" height="56" rx="14" fill="#0a1d33" stroke="#bba96c" stroke-width="3" />
     <rect x="112" y="316" width="136" height="56" rx="14" fill="url(#goldBand)" opacity="0.15" />
     <text class="mono tight" x="180" y="340" font-size="15" text-anchor="middle" fill="#f9e8b3">ONLINE BADGE</text>
+    <text class="mono tight" x="180" y="362" font-size="13" text-anchor="middle" fill="#cbd7e6">ID-HAAG-CORE-2024</text>
+  </g>
+
+  <text class="sans" x="50%" y="402" font-size="18" fill="#f7f3e9" text-anchor="middle" letter-spacing="4">HAAG DIGITAL CREDENTIAL</text>
+  <text class="sans" x="50%" y="426" font-size="13" fill="#f3d989" text-anchor="middle" letter-spacing="3">HUMAN-AUGMENTED ANALYTICS GROUP · NETWORK OPERATIONS</text>
     <text class="mono tight" x="180" y="362" font-size="13" text-anchor="middle" fill="#cbd7e6">ID-HAAG-GT-2024</text>
   </g>
 
