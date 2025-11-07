@@ -1,3 +1,38 @@
+<svg width="360" height="440" viewBox="0 0 360 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2d675" />
+      <stop offset="100%" stop-color="#b3a369" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.25)" />
+      <stop offset="40%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+    <style>
+      .sans { font-family: 'Montserrat', 'Segoe UI', sans-serif; }
+      .mono { font-family: 'Fira Code', 'Source Code Pro', monospace; }
+    </style>
+  </defs>
+  <rect width="360" height="440" rx="36" fill="#050505" />
+  <rect x="18" y="18" width="324" height="404" rx="32" fill="none" stroke="url(#badgeGold)" stroke-width="4" />
+  <rect x="30" y="30" width="300" height="380" rx="28" fill="none" stroke="#1b1b1b" stroke-width="2" />
+  <g opacity="0.4">
+    <path d="M40 120 H320" stroke="#2a2a2a" stroke-width="1.2" stroke-dasharray="6 8" />
+    <path d="M40 320 H320" stroke="#2a2a2a" stroke-width="1.2" stroke-dasharray="6 8" />
+    <path d="M80 70 V370" stroke="#2a2a2a" stroke-width="1.2" stroke-dasharray="4 10" />
+    <path d="M280 70 V370" stroke="#2a2a2a" stroke-width="1.2" stroke-dasharray="4 10" />
+  </g>
+  <g>
+    <path d="M60 160 C140 120 220 120 300 160" fill="none" stroke="url(#badgeGold)" stroke-width="3" opacity="0.7" />
+    <path d="M60 280 C140 320 220 320 300 280" fill="none" stroke="url(#badgeGold)" stroke-width="3" opacity="0.7" />
+  </g>
+  <g transform="translate(180 210)" text-anchor="middle">
+    <text class="sans" y="-10" font-size="72" font-weight="700" fill="url(#badgeGold)" letter-spacing="8">HAAG</text>
+    <rect x="-100" y="12" width="200" height="6" fill="url(#badgeGold)" opacity="0.55" />
+    <text class="mono" y="60" font-size="26" fill="url(#badgeGold)" letter-spacing="4">GEORGIA TECH</text>
+  </g>
+  <rect x="30" y="30" width="300" height="120" rx="28" fill="url(#shine)" opacity="0.35" />
+  <text class="mono" x="50%" y="392" font-size="13" fill="#5a5a5a" text-anchor="middle" letter-spacing="3">HUMAN-AUGMENTED ANALYTICS GROUP</text>
 <svg width="360" height="460" viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">HAAG Digital Credential</title>
   <desc id="desc">Digital badge for the Human-Augmented Analytics Group featuring a layered security tablet design and a custom HAAG analytic glyph.</desc>
