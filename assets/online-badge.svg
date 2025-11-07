@@ -1,0 +1,37 @@
+<svg width="360" height="420" viewBox="0 0 360 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d3b64" />
+      <stop offset="50%" stop-color="#2f6fb3" />
+      <stop offset="100%" stop-color="#37c3ff" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe14d" />
+      <stop offset="100%" stop-color="#ff9a3d" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .title { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 700; letter-spacing: 4px; }
+      .subtitle { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 500; letter-spacing: 2px; }
+      .id { font-family: 'Fira Code', 'Courier New', monospace; font-weight: 600; }
+    </style>
+  </defs>
+  <rect x="20" y="20" width="320" height="380" rx="40" fill="#0a192f" opacity="0.55" />
+  <path d="M180 30 C260 60 320 100 320 190 C320 265 285 330 180 380 C75 330 40 265 40 190 C40 100 100 60 180 30 Z" fill="url(#badgeGradient)" stroke="#e3f4ff" stroke-width="6" filter="url(#glow)" />
+  <g filter="url(#glow)">
+    <circle cx="180" cy="150" r="68" fill="#0a213d" stroke="#37c3ff" stroke-width="6" />
+    <path d="M180 96 L206 126 L194 126 L194 180 L166 180 L166 126 L154 126 Z" fill="url(#accentGradient)" stroke="#ffffff" stroke-width="3" />
+  </g>
+  <text class="title" x="50%" y="238" font-size="28" text-anchor="middle" fill="#f5fbff">ONLINE</text>
+  <text class="title" x="50%" y="272" font-size="24" text-anchor="middle" fill="#f5fbff">BADGE ID</text>
+  <rect x="80" y="290" width="200" height="60" rx="12" fill="#0a213d" stroke="#37c3ff" stroke-width="3" />
+  <text class="subtitle" x="50%" y="315" font-size="15" text-anchor="middle" fill="#9ad7ff">ACCESS LEVEL</text>
+  <text class="id" x="50%" y="340" font-size="20" text-anchor="middle" fill="#ffe14d">ID-9842-NEBULA</text>
+  <text class="subtitle" x="50%" y="388" font-size="14" text-anchor="middle" fill="#c6e7ff">VERIFIED · SIGNAL HASH 7F-AC-42</text>
+</svg>
