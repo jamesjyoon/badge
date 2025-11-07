@@ -1,6 +1,8 @@
 <svg width="360" height="460" viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">HAAG Digital Credential</title>
   <desc id="desc">Digital badge for the Human-Augmented Analytics Group featuring a layered security tablet design and a custom HAAG analytic glyph.</desc>
+  <title id="title">Georgia Tech HAAG Digital Credential</title>
+  <desc id="desc">Digital badge for the Human-Augmented Analytics Group at Georgia Tech with a layered security tablet design and interlocking GT emblem.</desc>
   <defs>
     <linearGradient id="panelDepth" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#041125" />
@@ -77,6 +79,10 @@
     <path d="M -44 -18 H -14 V 14 H -44 Z" fill="#f7f4eb" opacity="0.22" />
     <path d="M 70 8 H 104 L 98 -18 H 76 Z" fill="#f7f4eb" opacity="0.18" />
     <path d="M 28 66 L 44 0 L 76 0 L 90 66 Z" fill="#102640" opacity="0.28" />
+    <path d="M -86 -66 H 64 V -24 H -20 V -10 H 64 V 66 H -86 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
+    <path d="M 64 -66 H 152 V -26 H 118 V 66 H 64 Z" fill="#b3a369" stroke="#07192c" stroke-width="6" stroke-linejoin="round" />
+    <path d="M -52 -40 H 68 V -18 H -20 V 10 H -36 V -10 H -52 Z" fill="#f7f4eb" opacity="0.2" />
+    <path d="M 64 -42 H 128 V -26 H 100 V 38 H 84 V -26 H 64 Z" fill="#f7f4eb" opacity="0.18" />
   </g>
 
   <g>
@@ -88,5 +94,10 @@
 
   <text class="sans" x="50%" y="402" font-size="18" fill="#f7f3e9" text-anchor="middle" letter-spacing="4">HAAG DIGITAL CREDENTIAL</text>
   <text class="sans" x="50%" y="426" font-size="13" fill="#f3d989" text-anchor="middle" letter-spacing="3">HUMAN-AUGMENTED ANALYTICS GROUP · NETWORK OPERATIONS</text>
+    <text class="mono tight" x="180" y="362" font-size="13" text-anchor="middle" fill="#cbd7e6">ID-HAAG-GT-2024</text>
+  </g>
+
+  <text class="sans" x="50%" y="402" font-size="18" fill="#f7f3e9" text-anchor="middle" letter-spacing="4">GEORGIA INSTITUTE OF TECHNOLOGY</text>
+  <text class="sans" x="50%" y="426" font-size="13" fill="#f3d989" text-anchor="middle" letter-spacing="3">HUMAN-AUGMENTED ANALYTICS GROUP · ATLANTA CAMPUS</text>
   <text class="mono tight" x="50%" y="448" font-size="11" fill="#7f90a7" text-anchor="middle">ACCESS CHANNEL · SIGNAL HASH 47-HAAG</text>
 </svg>
